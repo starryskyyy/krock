@@ -14,7 +14,7 @@ Variables
     /* Neutral */
     --var-darkest: hsl(217, 54%, 11%);
     --var-card-dark: hsl(216, 50%, 16%);
-    --var-line-dark: hsl(215, 32%, 27%);
+    --var-line-dark: hsl(217, 46%, 20%);
     --var-lightest: white;
     --var-orange: #ffa952;
     --var-yellow: #f5c84c;
@@ -30,7 +30,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    background-color: var(--var-darkest);
+    background-color: var(--var-card-dark);
 }
 h1, h2, h3{
     color: var(--var-orange)
@@ -39,6 +39,11 @@ h1, h2, h3{
 h4{
     opacity: 0.9;
 }
+
+.main-page{
+    background-color: var(--var-darkest);
+}
+
 
 .parallax {
     /* Set a specific height */
@@ -57,7 +62,7 @@ h4{
 }
 
 .card{
-    background-color: var(--var-card-dark);
+    background-color: var(--var-line-dark);
     color: var(--var-orange);
     border-radius: 10px;
     padding: 20px;
