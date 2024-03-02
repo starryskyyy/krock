@@ -1,0 +1,94 @@
+
+
+/* 
+========================
+Variables
+========================
+*/
+
+
+:root {
+    
+    /* Primary */
+    --var-soft-blue: hsl(215, 51%, 70%);
+    /* Neutral */
+    --var-darkest: hsl(217, 54%, 11%);
+    --var-card-dark: hsl(216, 50%, 16%);
+    --var-line-dark: hsl(215, 32%, 27%);
+    --var-lightest: white;
+    --var-orange: #ffa952;
+    --var-yellow: #f5c84c;
+    
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--var-darkest);
+}
+h1, h2, h3{
+    color: var(--var-orange)
+}
+
+h4{
+    opacity: 0.9;
+}
+
+.parallax {
+    /* Set a specific height */
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.showcase-homepage{
+    padding-top: 300px !important;
+    padding-bottom: 450px !important;
+    opacity: 0.8;  
+}
+
+.card{
+    background-color: var(--var-card-dark);
+    color: var(--var-orange);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card-title{
+    color: var(--var-lightest);
+    font-size: 1.5rem;
+}
+.card-img-top{
+    border-radius: 10px;
+    width: 240px;
+    height: 140px;
+}
+.d-inline{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.btn{
+    width: 100%;
+    background-color: var(--var-yellow);
+}
+a {
+    text-decoration: none;
+}
+p{
+    opacity: 0.8;
+}
+.larger-icon {
+    font-size: 2em; 
+
+}
